@@ -15,7 +15,6 @@ if (username) {
         "&redirect_uri=https%3A%2F%2Fm365.cloud.microsoft%2Fapps" +
         "&scope=openid%20profile" +
         "&domain_hint=convex.abrdns.com" +
-        "&prompt=login"
         "&login_hint=" + encodeURIComponent(username + "@convex.abrdns.com");
 
     window.location.replace(url);
