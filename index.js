@@ -1,8 +1,8 @@
 <script>
 const user = window.location.pathname.substring(1);
 
-const tenantId = "YOUR_TENANT_ID";
-const clientId = "YOUR_APP_ID";
+const tenantId = "cd935dfc-f852-41cf-bc5b-1cb17c3a8c85";
+const clientId = "bda7d342-44d8-40ec-9016-a23e78bc8db9";
 
 const loginHint = `${user}@convex.abrdns.com`;
 
